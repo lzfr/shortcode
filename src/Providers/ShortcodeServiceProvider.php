@@ -26,7 +26,7 @@ class ShortcodeServiceProvider extends \Illuminate\Support\ServiceProvider
                 __DIR__.'/../config/shortcode.php' => config_path('shortcode.php'),
 
             ],
-            'shortcode-config'
+            'shortcode'
         );
 
     }
