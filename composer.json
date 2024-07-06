@@ -11,6 +11,7 @@
             "Lzfr\\Shortcode\\Test\\": "tests/"
         }
     },
+    "license": "MIT",
     "extra": {
         "laravel" : {
             "providers": {
