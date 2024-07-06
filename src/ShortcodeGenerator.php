@@ -20,4 +20,9 @@ class ShortcodeGenerator
     {
         return substr(md5(uniqid()), 0, $length); // Example generation logic
     }
+
+    public function generateShortCodeWithPrefix($prefix, $length) :String
+    {
+        return $prefix . $this->generateShortCodeByLength($length); // Example generation logic
+    }
 }
