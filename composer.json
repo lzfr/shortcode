@@ -19,9 +19,11 @@
             }
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
-            "name": "zhuoliu",
+            "name": "lz",
             "email": "lzbrest@yahoo.fr"
         }
     ],
