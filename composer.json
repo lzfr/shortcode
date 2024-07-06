@@ -1,0 +1,34 @@
+{
+    "name": "lzfr/shortcode",
+    "description": "generate short code",
+    "autoload": {
+        "psr-4": {
+            "Lzfr\\Shortcode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lzfr\\Shortcode\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": {
+                "Lzfr\\Shortcode\\ShortcodeServiceProvider": "src/Providers/ShortcodeServiceProvider.php"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "zhuoliu",
+            "email": "lzbrest@yahoo.fr"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}
