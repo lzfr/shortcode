@@ -16,6 +16,9 @@
         "laravel" : {
             "providers": {
                 "Lzfr\\Shortcode\\ShortcodeServiceProvider": "src/Providers/ShortcodeServiceProvider.php"
+            },
+            "aliases": {
+                "Shortcode": "Lzfr\\Shortcode\\Facade\\Generator"
             }
         }
     },
