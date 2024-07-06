@@ -14,9 +14,9 @@
     "license": "MIT",
     "extra": {
         "laravel" : {
-            "providers": {
-                "Lzfr\\Shortcode\\ShortcodeServiceProvider": "src/Providers/ShortcodeServiceProvider.php"
-            },
+            "providers": [
+                "Lzfr\\Shortcode\\ShortcodeServiceProvider"
+            ],
             "aliases": {
                 "Shortcode": "Lzfr\\Shortcode\\Facade\\Generator"
             }
