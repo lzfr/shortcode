@@ -30,7 +30,6 @@ class TestShortCode extends TestCase {
     }
 
     public function testPrefix(){
-
         $generator = new ShortcodeGenerator();
         $code = $generator->generateShortCodeWithPrefix( 'prefix', 10);
 
